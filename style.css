@@ -1,0 +1,48 @@
+body {
+  color: white;
+  font-family: "Major Mono Display", monospace;
+}
+
+.container {
+  max-width: 300px;
+  min-height: 150px;
+  max-height: 800px;
+  margin: 3rem auto;
+  background-color: #0c2231;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+#heading {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+#display {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.5rem;
+}
+
+.btn {
+  border: 3px solid white;
+  border-radius: 15px;
+  font-size: 2rem;
+  height: 50px;
+}
+
+#reset {
+  font-size: 1.3rem;
+}
+
+.btn:hover {
+  border-color: white;
+  color: white;
+  background-color: #525b8b;
+}
